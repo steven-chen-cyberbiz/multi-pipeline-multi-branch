@@ -2,7 +2,9 @@ pipeline {
   agent any
   stages {
     stage('do rsepc') {
-      echo 'do rspec'
+      steps{
+        echo 'do rspec'
+      }
     }
   }
 }
